@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/live_image_view"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:src="@drawable/live_dota_wall" />
+
+    <TextView
+        android:id="@+id/live_tournament_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/live_image_view"
+        android:layout_marginBottom="60dp"
+        android:text="Tournament Type: "
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/live_tournament_participants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/live_image_view"
+        android:layout_marginBottom="20dp"
+        android:text="Tournament \nParticipants: "
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/live_image_view"
+        android:layout_alignBottom="@id/live_image_view"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="10dp"
+        android:text="Status:"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/live_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/live_image_view"
+        android:layout_alignBottom="@id/live_image_view"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="Registrations"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

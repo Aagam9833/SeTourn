@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/custom_shape"
+    tools:context=".Organizer.CsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Tournament Type"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+
+    <RadioGroup
+        android:id="@+id/cs_tournament_type_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/cs_wingMan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wingman"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/cs_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teams"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:textSize="20sp"/>
+
+    </RadioGroup>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select number of Participants"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+
+    <RadioGroup
+        android:id="@+id/cs_participants_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/cs_radio_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:text="4"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/cs_radio_eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/cs_radio_sixteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:textSize="20sp"/>
+
+    </RadioGroup>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep registerations open till"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+
+    <RadioGroup
+        android:id="@+id/cs_open_till"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/cs_one_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 day"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/cs_two_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 day"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/cs_one_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 week"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#FFFFFF"
+            android:textSize="20sp"/>
+
+    </RadioGroup>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"/>
+
+    <Button
+        android:id="@+id/set_tournament_submit_for_cs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+</LinearLayout>

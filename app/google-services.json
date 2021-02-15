@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "166341004521",
+    "firebase_url": "https://setourn-e3c66.firebaseio.com",
+    "project_id": "setourn-e3c66",
+    "storage_bucket": "setourn-e3c66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166341004521:android:f530fca789b18eccd97478",
+        "android_client_info": {
+          "package_name": "com.example.setourn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166341004521-4n31fm6lggs5tu3jipejmfhc1b9iohah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx2wxEDPLr4l6c2uEEfVmKf5hkkdjIoEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166341004521-4n31fm6lggs5tu3jipejmfhc1b9iohah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
